@@ -193,7 +193,7 @@ main{
 .alternativas label#correta{
     outline: 3px solid var(--green);
 
-    &span{
+    & span{
         background: var(--green);
         color: var(--white);
     }
@@ -202,7 +202,7 @@ main{
 .alternativas label#errada{
     outline: 3px solid var(--red);
 
-    &span{
+    & span{
         background: var(--red);
         color: var(--white);
     }
@@ -239,7 +239,6 @@ main{
     background: var(--purple);
     color: var(--white);
     width: 100%;
-
     font-size: 18px;
     font-weight: 500;
     transition: background 0.3s;
